@@ -8396,3 +8396,22 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+@media (min-width: 992px)
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+@media (min-width: 992px)
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    box-shadow: none;
+    
+    
+    
