@@ -200,7 +200,6 @@
 	}
     
     
-    
     .transparent_menu .main_menu_area .navbar.navbar-default .navbar-header .navbar-brand .new  {
 		display: none;
 	}
@@ -252,6 +251,45 @@
 		margin-top: 30px;
 	}
 }
+
+@media(max-width: 767px){
+	.main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box2 .first_text .smallScreenDisplay {
+        display:block; secondSlideTextLargeScreen
+    }
+    
+    .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box2 .first_text .largeScreenDisplay {
+        display:none;
+    }
+}
+@media(min-width: 767px){
+	.main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box2 .first_text .smallScreenDisplay {
+        display:none;
+    }
+    
+   
+}
+
+NEW
+
+@media(max-width: 767px){
+	.main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box .secand_text .secondSecond {
+        display:block;
+    }
+    
+    .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box .tp-caption secand_text .secondFirst {
+        display:none;
+    }
+}
+@media(min-width: 767px){
+	.main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box .secand_text .secondSlideTextSmallScreen {
+        display:none;
+    }
+    
+   
+}
+
+
+
 @media(max-width: 767px){
 	.recent_w_inner .media .media-body{
 		vertical-align: middle;
