@@ -33,9 +33,15 @@ Table of Content:
 .col-md-offset-right-1 {
   margin-right: 8.33333333%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Varela', sans-serif;
+}
 ul {
   list-style: none;
   margin: 0px;
@@ -3140,6 +3146,13 @@ iframe {
   padding: 90px 0px 80px 0px;
 }
 
+.banner_area .new{
+  background: url(../img/inspiration.jpg) no-repeat scroll center center;
+  background-size: cover;
+  position: relative;
+  z-index: 3;
+  padding: 90px 0px 80px 0px;
+}
 .banner_area:before {
   content: "";
   background: rgba(30, 33, 38, 0.5);
