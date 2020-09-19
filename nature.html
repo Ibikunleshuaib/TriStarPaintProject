@@ -22,8 +22,6 @@
         <link href="vendors/revolution/css/navigation.css" rel="stylesheet">
         <link href="vendors/animate-css/animate.css" rel="stylesheet">
         <link href="vendors/owl-carousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="vendors/flex-slider/flexslider.css" rel="stylesheet">
-        <link href="vendors/magnific-popup/magnific-popup.css" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         
         <!-- Extra plugin css -->
@@ -42,20 +40,19 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-        <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5e8fa44f69e9320caac21887/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-<!--End of Tawk.to Script-->
-
+            <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5e8fa44f69e9320caac21887/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+        <!--End of Tawk.to Script-->
 
     <body>
        
@@ -90,11 +87,11 @@
                                 <li >
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li ><a href="gallery.html">Gallery</a></li>
-                                <li ><a href="products.html">Products</a></li>
-                                <li><a href="inspiration.html">inspiration</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="products.html">Products</a></li>
+                                <li class="submenu active"><a href="#">inspiration</a></li>
                                 <li><a href="about.html">about us</a></li>
-                                <li class="submenu active"><a href="#">contact</a></li>
+                                <li><a href="contact.html">contact</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                     </nav>
@@ -103,91 +100,191 @@
     </header>
 
         <!--================Banner Area =================-->
-        <section class="banner_area" style="background: url(img/banner/single-page-banner3.jpg); background-size: cover">
+        <section class="banner_area">
             <div class="container">
                 <div class="banner_inner_text">
-                    <h4>Contact Us</h4>
+                    <h4>Color Inspiration</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="#">Contact us</a></li>
+                        <li class="active"><a href="#">Color Inspiration</a></li>
                     </ul>
                 </div>
             </div>
         </section>
-        <!--================End Banner Area =================-->
         
-        <!--================Blog Details Area =================-->
-        <section class="blog_details_area p_100" style="padding-top: 50px; padding-bottom: 100px">
+        
+        <!--================Our Project2 Area =================-->
+        <section class="our_project2_area">
             <div class="container">
-                <div class="row blog_details_inner">
-                    <div class="col-md-8">
-                        <div class="comment_form_area">
-                            <h3 style="color: #ffcd00; margin-top: 0; margin-bottom: 10px;">CONTACT FORM</h3>
-                            <div style="padding-bottom: 10px; "><i>Fields with <span style="color:red"> *</span> are required</i></div>
-                            <form method="post" action="POST" data-netlify="true" class="contact_us_form row"   id="">
-                                <div class="form-group col-md-6">
-                                    <strong><span > Name <span style="color:red"> *</span>:</span> </strong> <input required="required" type="text" class="form-control" id="Name" name="Name" placeholder="">
+                <div class="main_c_b_title" data-aos="fade-right">
+                    <h2>Beautiful Natural Color Inspiration<br class="title_br"></h2>
+                    <h4 style="color: #f37400">Modern and classical styles just for you.</h4>
+                </div>
+                
+                <!-- ROW -->
+                <div class="row our_project_details">
+                    <div class="col-md-4 col-sm-6 interior">
+                        <div class="project_item">
+                            <img src="img/nature/p1.jpg" alt="">
+                            <div class="project_hover">
+                                <div class="project_hover_inner">
+                                    <div class="project_hover_content">
+                                        <a href="#"><h4>TriStar Paints</h4></a>
+                                        <p>we manufacture and market premium paint products </p>
+                                        <a class="view_btn" href="contact.html" style="color: #f37400">Contact Us</a>
+                                    </div>
                                 </div>
-                                <div class="form-group col-md-6">
-                                    <strong><span>Company:</span></strong><input type="text" class="form-control" id="Company Name" name="Company Name" placeholder="">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <strong><span>Phone:</span></strong><input type="number" class="form-control" id="Phone Number" name="Phone Number" placeholder="">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <strong><span>Email <span style="color:red">*</span>:</span></strong><input  type="email" class="form-control" id="Email" required="required" name="Email" placeholder="">
-                                </div>
-                                <div class="form-group col-md-12">
-                                    <strong><span>Comments & Questions <span style="color:red">*</span>:</span></strong><textarea class="form-control" name="Message" id="Comments & Questions" rows="1" placeholder="" required="required"></textarea>
-                                </div>
-
-                                <div class="form-group col-md-12">
-                                    <button type="submit" value="submit" class="btn submit_btn form-control">Submit</button>
-                                </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
-                    <style>
-                        
-                    </style>
-                    <div class="col-md-4">
-                        <div class="sidebar_area">
-                            <aside class="right_widget r_post_widget">
-                                <div class="r_w_title">
-                                    <h3>Factory Address</h3>
-                                </div>
-                                <div class="r_post_inner">
-                                    <div class="r_post_item">
-                                        
-                                      <span style="padding-right: 10px; font-size: 30px; color: #f37400"><i class="fa fa-map-marker"></i></span> 
-                                      <h4 style="font-size:20px">  Km 14, Olorunda Aba Road, Ibadan, Oyo State, Nigeria.</h4>
-                                      <br>
-
-                                      <span style="padding-right: 10px; font-size: 30px; color: #f37400"><i class="fa fa-phone"></i></span> 
-                                    <strong>
-                                      <ul style="font-size: 17px">
-                                      	<li>08032667194</li>
-                                      	<li>09060001845</li>
-                                      	<li>09058037785</li>
-                                      </ul>
-                                    </strong>
+                    <div class="col-md-4 col-sm-6 interior">
+                        <div class="project_item">
+                            <img src="img/nature/p2.jpg" alt="">
+                            <div class="project_hover">
+                                <div class="project_hover_inner">
+                                    <div class="project_hover_content">
+                                        <a href="#"><h4>TriStar Paints</h4></a>
+                                        <p>we manufacture and market premium paint products </p>
+                                        <a class="view_btn" href="contact.html" style="color: #f37400">Contact Us</a>
                                     </div>
-                                    <!-- 
-                                    <div class="r_post_item">
-                                        <img src="img/TriStarLaptopView.png" alt="">
-                                        <a href="#"><p style="text-align: center; color: #ffcd00"><strong>...adding value to your assets</strong></p></a>
-                                    </div>
-                                    -->
                                 </div>
-                            </aside>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="project_item">
+                            <img src="img/nature/p3.jpg" alt="">
+                            <div class="project_hover">
+                                <div class="project_hover_inner">
+                                    <div class="project_hover_content">
+                                        <a href="#"><h4>TriStar Paints</h4></a>
+                                        <p>we manufacture and market premium paint products </p>
+                                        <a class="view_btn" href="contact.html" style="color: #f37400">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ROW -->
+                    <div class="col-md-4 col-sm-6 interior">
+                        <div class="project_item">
+                            <img src="img/nature/p4.jpg" alt="">
+                            <div class="project_hover">
+                                <div class="project_hover_inner">
+                                    <div class="project_hover_content">
+                                        <a href="#"><h4>TriStar Paints</h4></a>
+                                        <p>we manufacture and market premium paint products </p>
+                                        <a class="view_btn" href="contact.html" style="color: #f37400">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 exterior">
+                        <div class="project_item">
+                            <img src="img/nature/p5.jpg" alt="">
+                            <div class="project_hover">
+                                <div class="project_hover_inner">
+                                    <div class="project_hover_content">
+                                        <a href="#"><h4>TriStar Paints</h4></a>
+                                        <p>we manufacture and market premium paint products </p>
+                                        <a class="view_btn" href="contact.html" style="color: #f37400">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 exterior">
+                        <div class="project_item">
+                            <img src="img/nature/p6.jpg" alt="">
+                            <div class="project_hover">
+                                <div class="project_hover_inner">
+                                    <div class="project_hover_content">
+                                        <a href="#"><h4>TriStar Paints</h4></a>
+                                        <p>we manufacture and market premium paint products </p>
+                                        <a class="view_btn" href="contact.html" style="color: #f37400">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                <!-- ROW -->
+                    <div class="col-md-4 col-sm-6 interior">
+                        <div class="project_item">
+                            <img src="img/nature/p7.jpg" alt="">
+                            <div class="project_hover">
+                                <div class="project_hover_inner">
+                                    <div class="project_hover_content">
+                                        <a href="#"><h4>TriStar Paints</h4></a>
+                                        <p>we manufacture and market premium paint products </p>
+                                        <a class="view_btn" href="contact.html" style="color: #f37400">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 exterior">
+                        <div class="project_item">
+                            <img src="img/nature/p8.jpg" alt="">
+                            <div class="project_hover">
+                                <div class="project_hover_inner">
+                                    <div class="project_hover_content">
+                                        <a href="#"><h4>TriStar Paints</h4></a>
+                                        <p>we manufacture and market premium paint products </p>
+                                        <a class="view_btn" href="contact.html" style="color: #f37400">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 exterior">
+                        <div class="project_item">
+                            <img src="img/nature/p9.jpg" alt="">
+                            <div class="project_hover">
+                                <div class="project_hover_inner">
+                                    <div class="project_hover_content">
+                                        <a href="#"><h4>TriStar Paints</h4></a>
+                                        <p>we manufacture and market premium paint products </p>
+                                        <a class="view_btn" href="contact.html" style="color: #f37400">Contact Us</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--================End Blog Details Area =================-->
+        <!--================End Our Project2 Area =================-->
+        <style>
+            .service2_inner .service2_item .service2_item_inner {
+                
+                background-color: #ffcd00;
+                //linear-gradient(to top right, #ffcd00, #f37400) (to top right, #021329, #2051e6)
+                
+            }
+            .subscribe_area{
+               background:  linear-gradient(to top right, #ffcd00, #f37400);
+
+            }
+            .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content h4 {
+                text-transform: none;
+            }
+        </style>
+
+        <!--================Subscrib Form Area =================-->
+        <section class="subscribe_area">
+            <div class="container">
+                <div class="pull-left" data-aos="fade-up">
+                    <h4 style="color:white">Looking for quality and affordable paint products for your next project?</h4>
+                </div>
+                <div class="pull-right" data-aos="fade-up">
+                    <a class="get_btn_black" href="contact.html">Contact Us</a>
+                </div>
+            </div>
+        </section>
         
-       <!--================Footer Area =================-->
+        <!--================Footer Area =================-->
         <footer class="footer_area">
             <div class="footer_widgets_area footer_bg">
                 <div class="container">
@@ -276,7 +373,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-body">
-                                            <a href="gallery.html" style="color: #f37400">Gallery</a>
+                                            <a href="#" style="color: #f37400">Gallery</a>
                                         </div>
                                     </div>
                                     <div class="media">
@@ -291,7 +388,7 @@
                                     </div>
                                     <div class="media">
                                         <div class="media-body">
-                                            <a href="#" style="color: #f37400">Contact Us</a>
+                                            <a href="contact.html" style="color: #f37400">Contact Us</a>
                                         </div>
                                     </div>
                                 </div>
@@ -305,7 +402,7 @@
             </div>
         </footer>
         <!--================End Footer Area =================-->
-         
+       
         <style>
             .float{
             position:fixed;
@@ -328,6 +425,7 @@
 
         </style>
 
+        
         
         <!-- AOS -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -360,9 +458,6 @@
         <!--gmaps Js-->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
         <script src="js/gmaps.min.js"></script>
-        <!--Tweets-->
-        <script src="vendors/tweet/tweetie.min.js"></script>
-        <script src="vendors/tweet/script.js"></script>
         
         <script src="js/theme.js"></script>
     </body>
